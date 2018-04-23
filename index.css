@@ -7,7 +7,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Courgette', cursive;
+  font-family: 'Playfair Display', Italic;
+  font-size: 40px;
+  color: #F05039;
 }
 
 .navbar {
@@ -16,13 +18,25 @@ body {
   justify-content: center;
   padding-bottom: 6vw;
   font-family: 'Courgette', cursive;
-
+  font-size: 27px;
 }
 
 header {
   display: flex;
   flex-direction: column;
 }
+
+.mainbody {
+  display: flex;
+  flex-direction: row;
+}
+
+.introimg {
+  height: 20vw;
+  width: 20vw;
+}
+
+.aboutme {}
 
 a {
   text-decoration: none;
@@ -36,11 +50,10 @@ a {
   display: flex;
   flex-direction: row;
   margin-bottom: 5vw;
-  margin-left: 10vw;
   margin-right: 10vw;
 }
 
-img {
+.articleimg {
   width: 30vw;
   height: 30vw;
 }
